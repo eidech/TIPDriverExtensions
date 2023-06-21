@@ -49,9 +49,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GenerateReport\PARTSExtensions.csproj">
+    <ProjectReference Include="..\GenerateReport\TIPDriverExtensions.csproj">
       <Project>{83dcc7e7-add8-4a4e-9a89-081f3700dfd6}</Project>
-      <Name>PARTSExtensions</Name>
+      <Name>TIPDriverExtensions</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -5,17 +5,18 @@ using System.IO;
 using System.Windows.Forms;
 using System.Drawing;
 
-namespace PARTSExtensions
+namespace TIPDriverExtensions
 {
     public static class Config
     {
         private static bool _successfulStartup = false;
-        private static String _terminalName, _reportPath, _databasePath;
+        private static String _terminalName, _reportPath, _databasePath, _screenshotPath;
 
         public static bool SuccessfulStartup { get { return _successfulStartup; } }
         public static string TerminalName { get { return _terminalName; } }
         public static string ReportPath { get { return _reportPath; } } 
         public static string DatabasePath { get { return _databasePath; } }
+        public static string ScreenshotPath { get { return _screenshotPath; } }
 
         public static void StartUp(string input, StringBuilder output)
         {
@@ -30,6 +31,9 @@ namespace PARTSExtensions
 
             _databasePath = input.Substring(260, 250);
             _databasePath = _databasePath.Trim();
+
+            _screenshotPath = input.Substring(510, 250);
+            _screenshotPath = _screenshotPath.Trim();
 
             //Check for blank Terminal Name
             if (_terminalName.Equals(""))
@@ -52,6 +56,13 @@ namespace PARTSExtensions
                 return;
             }
 
+            //Check for blank Screenshot Path
+            if (_screenshotPath.Equals(""))
+            {
+                output.Append("FNo screenshot path was provided to the method.");
+                return;
+            }
+
             //Check to see that report path points to a valid directory
             if (!Directory.Exists(_reportPath))
             {
@@ -60,6 +71,20 @@ namespace PARTSExtensions
             }
 
             //Check to see that database path points to a valid directory
+            if (!Directory.Exists(_databasePath))
+            {
+                output.Append("FThe database path does not point to a valid directory.");
+                return;
+            }
+
+            //Check to see that screenshot path points to a valid directory
+            if (!Directory.Exists(_screenshotPath))
+            {
+                output.Append("FThe screenshot path does not point to a valid directory.");
+                return;
+            }
+
+            //Check to see that database path points to a valid mdb file
             if (!File.Exists(_databasePath))
             {
                 output.Append("FThe database path does not point to a valid .mdb file.");
@@ -76,9 +101,8 @@ namespace PARTSExtensions
                 {
                     File.Delete(file);
                 }
-
-                //Deal with any exceptions
             }
+            //Deal with any exceptions
             catch (Exception ex)
             {
                 output.Append("F");

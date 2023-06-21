@@ -8,13 +8,13 @@
     ".NETCoreApp,Version=v2.1": {
       "GenerateReportTester/1.0.0": {
         "dependencies": {
-          "PARTSExtensions": "1.0.0"
+          "TIPDriverExtensions": "1.0.0"
         },
         "runtime": {
           "GenerateReportTester.dll": {}
         }
       },
-      "PARTSExtensions/1.0.0": {
+      "TIPDriverExtensions/1.0.0": {
         "runtime": {
           "GenerateReport.dll": {}
         }
@@ -35,7 +35,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "PARTSExtensions/1.0.0": {
+    "TIPDriverExtensions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

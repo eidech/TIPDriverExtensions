@@ -13,3 +13,20 @@ C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\obj\Release\netc
 C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\obj\Release\netcoreapp2.1\GenerateReportTester.dll
 C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\obj\Release\netcoreapp2.1\GenerateReportTester.pdb
 C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\obj\Release\netcoreapp2.1\GenerateReportTester.genruntimeconfig.cache
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\bin\Release\netcoreapp2.1\GenerateReportTester.deps.json
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\bin\Release\netcoreapp2.1\GenerateReportTester.runtimeconfig.json
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\bin\Release\netcoreapp2.1\GenerateReportTester.runtimeconfig.dev.json
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\bin\Release\netcoreapp2.1\GenerateReportTester.dll
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\bin\Release\netcoreapp2.1\GenerateReportTester.pdb
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\bin\Release\netcoreapp2.1\GenerateReport.dll
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\bin\Release\netcoreapp2.1\Microsoft.Office.Interop.Access.dll
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\bin\Release\netcoreapp2.1\GenerateReport.pdb
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Release\netcoreapp2.1\GenerateReportTester.csproj.AssemblyReference.cache
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Release\netcoreapp2.1\GenerateReportTester.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Release\netcoreapp2.1\GenerateReportTester.AssemblyInfoInputs.cache
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Release\netcoreapp2.1\GenerateReportTester.AssemblyInfo.cs
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Release\netcoreapp2.1\GenerateReportTester.csproj.CoreCompileInputs.cache
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Release\netcoreapp2.1\GenerateReportTester.csproj.CopyComplete
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Release\netcoreapp2.1\GenerateReportTester.dll
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Release\netcoreapp2.1\GenerateReportTester.pdb
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Release\netcoreapp2.1\GenerateReportTester.genruntimeconfig.cache

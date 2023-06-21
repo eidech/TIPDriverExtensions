@@ -1,9 +1,0 @@
-C:\Users\chris\source\repos\GenerateReport\GenerateReport\bin\Debug\GenerateReport.dll
-C:\Users\chris\source\repos\GenerateReport\GenerateReport\bin\Debug\GenerateReport.pdb
-C:\Users\chris\source\repos\GenerateReport\GenerateReport\bin\Debug\Microsoft.Office.Interop.Access.dll
-C:\Users\chris\source\repos\GenerateReport\GenerateReport\bin\Debug\stdole.dll
-C:\Users\chris\source\repos\GenerateReport\GenerateReport\obj\Debug\GenerateReport.csproj.CoreCompileInputs.cache
-C:\Users\chris\source\repos\GenerateReport\GenerateReport\obj\Debug\GenerateReport.csproj.CopyComplete
-C:\Users\chris\source\repos\GenerateReport\GenerateReport\obj\Debug\GenerateReport.dll
-C:\Users\chris\source\repos\GenerateReport\GenerateReport\obj\Debug\GenerateReport.pdb
-C:\Users\chris\source\repos\GenerateReport\GenerateReport\obj\Debug\GenerateReport.csprojAssemblyReference.cache

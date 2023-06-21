@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\GenerateReport\\GenerateReportTester\\GenerateReportTester.csproj": {}
+    "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\TIPDriverExtensions\\GenerateReportTester\\GenerateReportTester.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\GenerateReport\\GenerateReportTester\\GenerateReportTester.csproj": {
+    "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\TIPDriverExtensions\\GenerateReportTester\\GenerateReportTester.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\GenerateReport\\GenerateReportTester\\GenerateReportTester.csproj",
+        "projectUniqueName": "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\TIPDriverExtensions\\GenerateReportTester\\GenerateReportTester.csproj",
         "projectName": "GenerateReportTester",
-        "projectPath": "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\GenerateReport\\GenerateReportTester\\GenerateReportTester.csproj",
+        "projectPath": "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\TIPDriverExtensions\\GenerateReportTester\\GenerateReportTester.csproj",
         "packagesPath": "C:\\Users\\Christopher Eide\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\GenerateReport\\GenerateReportTester\\obj\\",
+        "outputPath": "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\TIPDriverExtensions\\GenerateReportTester\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "netcoreapp2.1": {
             "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\GenerateReport\\GenerateReport\\PARTSExtensions.csproj": {
-                "projectPath": "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\GenerateReport\\GenerateReport\\PARTSExtensions.csproj"
+              "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\TIPDriverExtensions\\GenerateReport\\TIPDriverExtensions.csproj": {
+                "projectPath": "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\TIPDriverExtensions\\GenerateReport\\TIPDriverExtensions.csproj"
               }
             }
           }
@@ -71,11 +71,11 @@
         }
       }
     },
-    "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\GenerateReport\\GenerateReport\\PARTSExtensions.csproj": {
+    "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\TIPDriverExtensions\\GenerateReport\\TIPDriverExtensions.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\GenerateReport\\GenerateReport\\PARTSExtensions.csproj",
-        "projectName": "PARTSExtensions",
-        "projectPath": "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\GenerateReport\\GenerateReport\\PARTSExtensions.csproj",
+        "projectUniqueName": "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\TIPDriverExtensions\\GenerateReport\\TIPDriverExtensions.csproj",
+        "projectName": "TIPDriverExtensions",
+        "projectPath": "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\TIPDriverExtensions\\GenerateReport\\TIPDriverExtensions.csproj",
         "frameworks": {
           "net35": {
             "projectReferences": {}

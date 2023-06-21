@@ -4,7 +4,7 @@ using System.Text;
 using MsAccess = Microsoft.Office.Interop.Access;
 using System.IO;
 
-namespace PARTSExtensions
+namespace TIPDriverExtensions
 {
     public static class ReportGenerator
     {

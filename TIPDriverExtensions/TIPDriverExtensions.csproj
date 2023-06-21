@@ -52,6 +52,7 @@
     <Compile Include="Config.cs" />
     <Compile Include="ReportGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SnapScreen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

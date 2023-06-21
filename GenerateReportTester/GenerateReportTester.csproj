@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GenerateReport\PARTSExtensions.csproj" />
+    <ProjectReference Include="..\GenerateReport\TIPDriverExtensions.csproj" />
   </ItemGroup>
 
 </Project>
