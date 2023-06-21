@@ -1,0 +1,8 @@
+C:\Users\chris\source\repos\GenerateReport\GenerateReport\bin\Release\GenerateReport.dll
+C:\Users\chris\source\repos\GenerateReport\GenerateReport\bin\Release\GenerateReport.pdb
+C:\Users\chris\source\repos\GenerateReport\GenerateReport\bin\Release\Microsoft.Office.Interop.Access.dll
+C:\Users\chris\source\repos\GenerateReport\GenerateReport\obj\Release\PARTSExtensions.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\GenerateReport\GenerateReport\obj\Release\PARTSExtensions.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\GenerateReport\GenerateReport\obj\Release\PARTSExtensions.csproj.CopyComplete
+C:\Users\chris\source\repos\GenerateReport\GenerateReport\obj\Release\GenerateReport.dll
+C:\Users\chris\source\repos\GenerateReport\GenerateReport\obj\Release\GenerateReport.pdb

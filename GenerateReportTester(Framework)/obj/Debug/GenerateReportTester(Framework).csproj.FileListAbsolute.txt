@@ -1,0 +1,12 @@
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester(Framework)\obj\Debug\GenerateReportTester(Framework).csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester(Framework)\bin\Debug\GenerateReportTester(Framework).exe
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester(Framework)\bin\Debug\GenerateReportTester(Framework).pdb
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester(Framework)\bin\Debug\GenerateReport.dll
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester(Framework)\bin\Debug\Microsoft.Office.Interop.Access.dll
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester(Framework)\bin\Debug\GenerateReport.pdb
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester(Framework)\obj\Debug\GenerateReportTester(Framework).csprojAssemblyReference.cache
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester(Framework)\obj\Debug\GenerateReportTester(Framework).csproj.CopyComplete
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester(Framework)\obj\Debug\GenerateReportTester(Framework).exe
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester(Framework)\obj\Debug\GenerateReportTester(Framework).pdb
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester(Framework)\bin\Debug\GenerateReportTester(Framework).exe.config
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester(Framework)\bin\Debug\ADODB.dll

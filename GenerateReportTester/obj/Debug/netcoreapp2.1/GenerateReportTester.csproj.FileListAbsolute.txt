@@ -1,0 +1,17 @@
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\bin\Debug\netcoreapp2.1\GenerateReportTester.deps.json
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\bin\Debug\netcoreapp2.1\GenerateReportTester.runtimeconfig.json
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\bin\Debug\netcoreapp2.1\GenerateReportTester.runtimeconfig.dev.json
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\bin\Debug\netcoreapp2.1\GenerateReportTester.dll
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\bin\Debug\netcoreapp2.1\GenerateReportTester.pdb
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\obj\Debug\netcoreapp2.1\GenerateReportTester.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\obj\Debug\netcoreapp2.1\GenerateReportTester.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\obj\Debug\netcoreapp2.1\GenerateReportTester.AssemblyInfoInputs.cache
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\obj\Debug\netcoreapp2.1\GenerateReportTester.AssemblyInfo.cs
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\obj\Debug\netcoreapp2.1\GenerateReportTester.dll
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\obj\Debug\netcoreapp2.1\GenerateReportTester.pdb
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\bin\Debug\netcoreapp2.1\GenerateReport.dll
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\bin\Debug\netcoreapp2.1\Microsoft.Office.Interop.Access.dll
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\bin\Debug\netcoreapp2.1\GenerateReport.pdb
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\obj\Debug\netcoreapp2.1\GenerateReportTester.csproj.CopyComplete
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\bin\Debug\netcoreapp2.1\ADODB.dll
+C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\obj\Debug\netcoreapp2.1\GenerateReportTester.genruntimeconfig.cache
