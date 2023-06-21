@@ -12,7 +12,7 @@ namespace PARTSExtensions
         public static void GenerateReport(string input, StringBuilder output)
         {
 
-            if (!Config.successfulStartup)
+            if (!Config.SuccessfulStartup)
             {
                 output.Append("FPARTS Extensions have not been initialized.");
                 return;
@@ -32,7 +32,7 @@ namespace PARTSExtensions
 
                 //Generate FileName from Report Name and Current Time/Date
                 StringBuilder FileName = new StringBuilder();
-                FileName.Append(Config.terminalName);
+                FileName.Append(Config.TerminalName);
                 FileName.Append(reportName);
                 FileName.Append(System.DateTime.Now.Year.ToString());
                 FileName.Append(System.DateTime.Now.Month.ToString());
@@ -43,10 +43,10 @@ namespace PARTSExtensions
                 FileName.Append(".pdf");
 
                 //Generate Report, Return no errors
-                app.OpenCurrentDatabase(Config.databasePath, false, "");
+                app.OpenCurrentDatabase(Config.DatabasePath, false, "");
                 app.DoCmd.OpenReport(reportName, MsAccess.AcView.acViewPreview, Type.Missing, whereClause, MsAccess.AcWindowMode.acWindowNormal, Type.Missing);
                 app.Visible = false;
-                app.DoCmd.OutputTo(MsAccess.AcOutputObjectType.acOutputReport, reportName, MsAccess.Constants.acFormatPDF, Config.reportPath + FileName.ToString(), true, Type.Missing, Type.Missing);
+                app.DoCmd.OutputTo(MsAccess.AcOutputObjectType.acOutputReport, reportName, MsAccess.Constants.acFormatPDF, Config.ReportPath + FileName.ToString(), true, Type.Missing, Type.Missing);
                 app.CloseCurrentDatabase();
                 app.Quit();
                 output.Append("PSystem encountered no errors");

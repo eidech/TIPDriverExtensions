@@ -9,53 +9,58 @@ namespace PARTSExtensions
 {
     public static class Config
     {
-        public static bool successfulStartup = false;
-        public static String terminalName, reportPath, databasePath;
+        private static bool _successfulStartup = false;
+        private static String _terminalName, _reportPath, _databasePath;
+
+        public static bool SuccessfulStartup { get { return _successfulStartup; } }
+        public static string TerminalName { get { return _terminalName; } }
+        public static string ReportPath { get { return _reportPath; } } 
+        public static string DatabasePath { get { return _databasePath; } }
 
         public static void StartUp(string input, StringBuilder output)
         {
             String[] terminalFiles;
 
             //Receive and parse arguments from TIP
-            terminalName = input.Substring(0, 10);
-            terminalName = terminalName.Trim();
+            _terminalName = input.Substring(0, 10);
+            _terminalName = _terminalName.Trim();
 
-            reportPath = input.Substring(10, 250);
-            reportPath = reportPath.Trim();
+            _reportPath = input.Substring(10, 250);
+            _reportPath = _reportPath.Trim();
 
-            databasePath = input.Substring(260, 250);
-            databasePath = databasePath.Trim();
+            _databasePath = input.Substring(260, 250);
+            _databasePath = _databasePath.Trim();
 
             //Check for blank Terminal Name
-            if (terminalName.Equals(""))
+            if (_terminalName.Equals(""))
             {
                 output.Append("FNo terminal name was provided to the method.");
                 return;
             }
 
             //Check for blank Report Path
-            if (reportPath.Equals(""))
+            if (_reportPath.Equals(""))
             {
                 output.Append("FNo path was provided to the method.");
                 return;
             }
 
             //Check for blank Database Path
-            if (databasePath.Equals(""))
+            if (_databasePath.Equals(""))
             {
                 output.Append("FNo database path was provided to the method.");
                 return;
             }
 
             //Check to see that report path points to a valid directory
-            if (!Directory.Exists(reportPath))
+            if (!Directory.Exists(_reportPath))
             {
                 output.Append("FThe report path does not point to a valid directory.");
                 return;
             }
 
             //Check to see that database path points to a valid directory
-            if (!File.Exists(databasePath))
+            if (!File.Exists(_databasePath))
             {
                 output.Append("FThe database path does not point to a valid .mdb file.");
                 return;
@@ -64,7 +69,7 @@ namespace PARTSExtensions
             try
             {
                 //Find all files that match the Terminal Name
-                terminalFiles = Directory.GetFiles(reportPath, terminalName + "*");
+                terminalFiles = Directory.GetFiles(_reportPath, _terminalName + "*");
 
                 //Delete all files that match Terminal Name
                 foreach (String file in terminalFiles)
@@ -89,7 +94,7 @@ namespace PARTSExtensions
 
             output.Append("PClass successfully initialized.");
 
-            successfulStartup = true;
+            _successfulStartup = true;
         }
 
         public static void GetPrinters(String input, StringBuilder output)
