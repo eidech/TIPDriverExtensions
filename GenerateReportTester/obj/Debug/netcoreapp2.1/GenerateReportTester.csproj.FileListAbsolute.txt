@@ -15,3 +15,10 @@ C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\bin\Debug\netcor
 C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\obj\Debug\netcoreapp2.1\GenerateReportTester.csproj.CopyComplete
 C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\bin\Debug\netcoreapp2.1\ADODB.dll
 C:\Users\chris\source\repos\GenerateReport\GenerateReportTester\obj\Debug\netcoreapp2.1\GenerateReportTester.genruntimeconfig.cache
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Debug\netcoreapp2.1\GenerateReportTester.csproj.AssemblyReference.cache
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Debug\netcoreapp2.1\GenerateReportTester.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Debug\netcoreapp2.1\GenerateReportTester.AssemblyInfoInputs.cache
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Debug\netcoreapp2.1\GenerateReportTester.AssemblyInfo.cs
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Debug\netcoreapp2.1\GenerateReportTester.csproj.CoreCompileInputs.cache
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Debug\netcoreapp2.1\GenerateReportTester.dll
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Debug\netcoreapp2.1\GenerateReportTester.pdb

@@ -926,8 +926,8 @@
     },
     "TIPDriverExtensions/1.0.0": {
       "type": "project",
-      "path": "../GenerateReport/TIPDriverExtensions.csproj",
-      "msbuildProject": "../GenerateReport/TIPDriverExtensions.csproj"
+      "path": "../TIPDriverExtensions/TIPDriverExtensions.csproj",
+      "msbuildProject": "../TIPDriverExtensions/TIPDriverExtensions.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -969,8 +969,8 @@
         "netcoreapp2.1": {
           "targetAlias": "netcoreapp2.1",
           "projectReferences": {
-            "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\TIPDriverExtensions\\GenerateReport\\TIPDriverExtensions.csproj": {
-              "projectPath": "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\TIPDriverExtensions\\GenerateReport\\TIPDriverExtensions.csproj"
+            "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\TIPDriverExtensions\\TIPDriverExtensions\\TIPDriverExtensions.csproj": {
+              "projectPath": "C:\\Users\\Christopher Eide\\source\\repos\\SentinelRepos\\TIPDriverExtensions\\TIPDriverExtensions\\TIPDriverExtensions.csproj"
             }
           }
         }

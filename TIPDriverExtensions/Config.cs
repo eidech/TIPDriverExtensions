@@ -35,6 +35,9 @@ namespace TIPDriverExtensions
             _screenshotPath = input.Substring(510, 250);
             _screenshotPath = _screenshotPath.Trim();
 
+            Console.WriteLine(_reportPath);
+            Console.WriteLine(_databasePath);
+
             //Check for blank Terminal Name
             if (_terminalName.Equals(""))
             {
@@ -71,7 +74,7 @@ namespace TIPDriverExtensions
             }
 
             //Check to see that database path points to a valid directory
-            if (!Directory.Exists(_databasePath))
+            if (!Directory.Exists(Path.GetDirectoryName(_databasePath)))
             {
                 output.Append("FThe database path does not point to a valid directory.");
                 return;
