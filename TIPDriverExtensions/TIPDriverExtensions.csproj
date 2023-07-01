@@ -7,8 +7,8 @@
     <ProjectGuid>{83DCC7E7-ADD8-4A4E-9A89-081F3700DFD6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GenerateReport</RootNamespace>
-    <AssemblyName>GenerateReport</AssemblyName>
+    <RootNamespace>TIPDriverExtensions</RootNamespace>
+    <AssemblyName>sbstde</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

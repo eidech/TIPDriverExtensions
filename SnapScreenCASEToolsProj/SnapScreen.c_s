@@ -1,0 +1,791 @@
+Attrib SourceFileVersion = 3070042
+Begin Subroutine.SnapScreen
+	Begin SubAttribs.SnapScreen
+		Prop Remarks = 
+		Prop Category = 
+	End
+	Begin LocalVariable.strAssemblyPath
+		Prop Remarks = 
+		Prop ReadOnly = False
+		Prop Static = False
+		Prop Len = 250
+		Prop InitVal =                                                                                                                                                                                                                                                           
+		Prop Version = 2
+		Prop SubFieldCount = 0
+	End
+	Begin LocalVariable.strOutput
+		Prop Remarks = 
+		Prop ReadOnly = False
+		Prop Static = False
+		Prop Len = 250
+		Prop InitVal =                                                                                                                                                                                                                                                           
+		Prop Version = 2
+		Prop SubFieldCount = 0
+	End
+	Begin LocalVariable.strucStartupInput
+		Prop Remarks = 
+		Prop ReadOnly = False
+		Prop Static = False
+		Prop Version = 2
+		Prop SubFieldCount = 4
+		Prop SubFieldName1 = strTerminalName
+		Prop SubFieldLength1 = 10
+		Prop SubFieldInitVal1 = 
+		Prop SubFieldRemark1 = 
+		Prop SubFieldName2 = strReportPath
+		Prop SubFieldLength2 = 250
+		Prop SubFieldInitVal2 = 
+		Prop SubFieldRemark2 = 
+		Prop SubFieldName3 = strDatabasePath
+		Prop SubFieldLength3 = 250
+		Prop SubFieldInitVal3 = 
+		Prop SubFieldRemark3 = 
+		Prop SubFieldName4 = strScreenshotPath
+		Prop SubFieldLength4 = 250
+		Prop SubFieldInitVal4 = 
+		Prop SubFieldRemark4 = 
+	End
+	Begin LocalVariable.strucSnapScreenInput
+		Prop Remarks = 
+		Prop ReadOnly = False
+		Prop Static = False
+		Prop Version = 2
+		Prop SubFieldCount = 2
+		Prop SubFieldName1 = strTerminalName
+		Prop SubFieldLength1 = 10
+		Prop SubFieldInitVal1 = 
+		Prop SubFieldRemark1 = 
+		Prop SubFieldName2 = strFileName
+		Prop SubFieldLength2 = 250
+		Prop SubFieldInitVal2 = 
+		Prop SubFieldRemark2 = 
+	End
+	Begin Instruction.Begin
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = ---Snap Screen Function Tester for TIP Extensions Library---
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Label
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop Label = START
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.ShowPanel
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+		Prop PanelName = MainPanel
+		Prop FocusTarget = 
+		Prop ResetFields = False
+		Prop Timeout = 
+		Prop WidgetInfoName1 = btnExit
+		Prop WidgetInfoState1 = 0
+		Prop WidgetInfoDismiss1 = 1
+		Prop WidgetInfoName2 = btnSnapScreen
+		Prop WidgetInfoState2 = 0
+		Prop WidgetInfoDismiss2 = 1
+		Prop WidgetInfoName3 = btnStartUp
+		Prop WidgetInfoState3 = 0
+		Prop WidgetInfoDismiss3 = 1
+		Prop WidgetInfoCount = 3
+		Prop FnKeyCount = 0
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.If
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop OpCode = EQ
+		Prop Operand1 = SYSTEM.InputControlID
+		Prop Operand2 = PANEL.MainPanel.btnExit.ID
+		Prop CompType = I
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Goto
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop BranchTo = EXIT
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.ElseIf
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop OpCode = EQ
+		Prop Operand1 = SYSTEM.InputControlID
+		Prop Operand2 = PANEL.MainPanel.btnStartUp.ID
+		Prop CompType = I
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Goto
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop BranchTo = STARTUP
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.ElseIf
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop OpCode = EQ
+		Prop Operand1 = SYSTEM.InputControlID
+		Prop Operand2 = PANEL.MainPanel.btnSnapScreen.ID
+		Prop CompType = I
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Goto
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop BranchTo = SNAPSCREEN
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.EndIf
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Label
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop Label = STARTUP
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = Expected input is as follows:
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = TERMINAL NAME (10 chars)
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = REPORT PATH (250 chars)
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = DB PATH (250 chars) (MUST POINT TO MDB FILE)
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = SCREENSHOT PATH (250 chars)
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = Get the TIP Driver Extensions DLL
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Move
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop FillChar =  
+		Prop Justify = L
+		Prop Source = SYSTEM.ProgramDir
+		Prop Target = LOCAL.strAssemblyPath
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Function
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop FuncID = 19
+		Prop Operand1 = LOCAL.strAssemblyPath
+		Prop Operand2 = "sbstde.dll"
+		Prop Operand3 = LOCAL.strAssemblyPath
+		Prop Operand4 = 
+		Prop Operand5 = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = Assemble Input
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Move
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop FillChar =  
+		Prop Justify = L
+		Prop Source = SYSTEM.TerminalName
+		Prop Target = LOCAL.strucStartupInput.strTerminalName
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Move
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop FillChar =  
+		Prop Justify = L
+		Prop Source = SYSTEM.ProgramDir
+		Prop Target = LOCAL.strucStartupInput.strReportPath
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Move
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop FillChar =  
+		Prop Justify = L
+		Prop Source = SYSTEM.ProgramDir
+		Prop Target = LOCAL.strucStartupInput.strDatabasePath
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Function
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop FuncID = 19
+		Prop Operand1 = LOCAL.strucStartupInput.strDatabasePath
+		Prop Operand2 = "db.mdb"
+		Prop Operand3 = LOCAL.strucStartupInput.strDatabasePath
+		Prop Operand4 = 
+		Prop Operand5 = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Move
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop FillChar =  
+		Prop Justify = L
+		Prop Source = SYSTEM.ProgramDir
+		Prop Target = LOCAL.strucStartupInput.strScreenshotPath
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Function
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop FuncID = 19
+		Prop Operand1 = LOCAL.strucStartupInput.strScreenshotPath
+		Prop Operand2 = "screenshots\"
+		Prop Operand3 = LOCAL.strucStartupInput.strScreenshotPath
+		Prop Operand4 = 
+		Prop Operand5 = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = Call .NET Assembly (Config Startup)
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.DotNetFn
+		Prop IsCommented = False
+		Prop Assembly = LOCAL.strAssemblyPath
+		Prop Class = "TIPDriverExtensions.Config"
+		Prop Method = "StartUp"
+		Prop Output = LOCAL.strOutput
+		Prop Input = LOCAL.strucStartupInput
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = Display Output
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Move
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop FillChar =  
+		Prop Justify = L
+		Prop Source = LOCAL.strOutput
+		Prop Target = PANEL.MainPanel.lblOutput.Text
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Goto
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop BranchTo = START
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Label
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop Label = SNAPSCREEN
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = Expected input is as follows:
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = TERMINAL NAME (10 chars)
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = FILE NAME (250 chars)
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = Get the TIP Driver Extensions DLL
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Move
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop FillChar =  
+		Prop Justify = L
+		Prop Source = SYSTEM.ProgramDir
+		Prop Target = LOCAL.strAssemblyPath
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Function
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop FuncID = 19
+		Prop Operand1 = LOCAL.strAssemblyPath
+		Prop Operand2 = "sbstde.dll"
+		Prop Operand3 = LOCAL.strAssemblyPath
+		Prop Operand4 = 
+		Prop Operand5 = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = Assemble Input
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Move
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop FillChar =  
+		Prop Justify = L
+		Prop Source = SYSTEM.TerminalName
+		Prop Target = LOCAL.strucSnapScreenInput.strTerminalName
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Move
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop FillChar =  
+		Prop Justify = L
+		Prop Source = "screenshot.jpg"
+		Prop Target = LOCAL.strucSnapScreenInput.strFileName
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = Call .NET Assembly (ScreenSnap SnapActiveWindow)
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.DotNetFn
+		Prop IsCommented = False
+		Prop Assembly = LOCAL.strAssemblyPath
+		Prop Class = "TIPDriverExtensions.SnapScreen"
+		Prop Method = "SnapActiveWindow"
+		Prop Output = LOCAL.strOutput
+		Prop Input = LOCAL.strucSnapScreenInput
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = Display Output
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Move
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop FillChar =  
+		Prop Justify = L
+		Prop Source = LOCAL.strOutput
+		Prop Target = PANEL.MainPanel.lblOutput.Text
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Goto
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop BranchTo = START
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Label
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop Label = EXIT
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.Remark
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin Instruction.End
+		Prop IsCommented = False
+		Prop Remarks = 
+		Prop HasBookMark = False
+		Prop HasBreakPoint = False
+	End
+	Begin SummaryView.SnapScreen
+		Prop L0001 =     Begin Subroutine 'SnapScreen'
+		Prop L0002 =        
+		Prop L0003 =        ---Snap Screen Function Tester for TIP Extensions Library---
+		Prop L0004 =        
+		Prop L0005 =     START:
+		Prop L0006 =        Show Panel 'MainPanel'
+		Prop L0007 =        
+		Prop L0008 =        If SYSTEM.InputControlID = PANEL.MainPanel.btnExit.ID Then
+		Prop L0009 =           Goto Label 'EXIT'
+		Prop L0010 =        Else If SYSTEM.InputControlID = PANEL.MainPanel.btnStartUp.ID Then
+		Prop L0011 =           Goto Label 'STARTUP'
+		Prop L0012 =        Else If SYSTEM.InputControlID = PANEL.MainPanel.btnSnapScreen.ID Then
+		Prop L0013 =           Goto Label 'SNAPSCREEN'
+		Prop L0014 =        End If
+		Prop L0015 =        
+		Prop L0016 =     STARTUP:
+		Prop L0017 =        
+		Prop L0018 =        Expected input is as follows:
+		Prop L0019 =        TERMINAL NAME (10 chars)
+		Prop L0020 =        REPORT PATH (250 chars)
+		Prop L0021 =        DB PATH (250 chars) (MUST POINT TO MDB FILE)
+		Prop L0022 =        SCREENSHOT PATH (250 chars)
+		Prop L0023 =        
+		Prop L0024 =        Get the TIP Driver Extensions DLL
+		Prop L0025 =        Move SYSTEM.ProgramDir To LOCAL.strAssemblyPath, Left Justify
+		Prop L0026 =        Fn:  LOCAL.strAssemblyPath = Concat (LOCAL.strAssemblyPath, "sbstde.dll")
+		Prop L0027 =        
+		Prop L0028 =        Assemble Input
+		Prop L0029 =        Move SYSTEM.TerminalName To LOCAL.strucStartupInput.strTerminalName, Left Justify
+		Prop L0030 =        Move SYSTEM.ProgramDir To LOCAL.strucStartupInput.strReportPath, Left Justify
+		Prop L0031 =        Move SYSTEM.ProgramDir To LOCAL.strucStartupInput.strDatabasePath, Left Justify
+		Prop L0032 =        Fn:  LOCAL.strucStartupInput.strDatabasePath = Concat (LOCAL.strucStartupInput.strDatabasePath, "db.mdb")
+		Prop L0033 =        Move SYSTEM.ProgramDir To LOCAL.strucStartupInput.strScreenshotPath, Left Justify
+		Prop L0034 =        Fn:  LOCAL.strucStartupInput.strScreenshotPath = Concat (LOCAL.strucStartupInput.strScreenshotPath, "screenshots\")
+		Prop L0035 =        
+		Prop L0036 =        Call .NET Assembly (Config Startup)
+		Prop L0037 =        Invoke .NET Method "StartUp" With LOCAL.strucStartupInput Into LOCAL.strOutput
+		Prop L0038 =        
+		Prop L0039 =        Display Output
+		Prop L0040 =        Move LOCAL.strOutput To PANEL.MainPanel.lblOutput.Text, Left Justify
+		Prop L0041 =        
+		Prop L0042 =        Goto Label 'START'
+		Prop L0043 =        
+		Prop L0044 =     SNAPSCREEN:
+		Prop L0045 =        
+		Prop L0046 =        Expected input is as follows:
+		Prop L0047 =        TERMINAL NAME (10 chars)
+		Prop L0048 =        FILE NAME (250 chars)
+		Prop L0049 =        
+		Prop L0050 =        Get the TIP Driver Extensions DLL
+		Prop L0051 =        Move SYSTEM.ProgramDir To LOCAL.strAssemblyPath, Left Justify
+		Prop L0052 =        Fn:  LOCAL.strAssemblyPath = Concat (LOCAL.strAssemblyPath, "sbstde.dll")
+		Prop L0053 =        
+		Prop L0054 =        Assemble Input
+		Prop L0055 =        Move SYSTEM.TerminalName To LOCAL.strucSnapScreenInput.strTerminalName, Left Justify
+		Prop L0056 =        Move "screenshot.jpg" To LOCAL.strucSnapScreenInput.strFileName, Left Justify
+		Prop L0057 =        
+		Prop L0058 =        Call .NET Assembly (ScreenSnap SnapActiveWindow)
+		Prop L0059 =        Invoke .NET Method "SnapActiveWindow" With LOCAL.strucSnapScreenInput Into LOCAL.strOutput
+		Prop L0060 =        
+		Prop L0061 =        Display Output
+		Prop L0062 =        Move LOCAL.strOutput To PANEL.MainPanel.lblOutput.Text, Left Justify
+		Prop L0063 =        
+		Prop L0064 =        Goto Label 'START'
+		Prop L0065 =        
+		Prop L0066 =        
+		Prop L0067 =     EXIT:
+		Prop L0068 =        
+		Prop L0069 =        
+		Prop L0070 =        
+		Prop L0071 =        
+		Prop L0072 =        
+		Prop L0073 =        
+		Prop L0074 =        
+		Prop L0075 =        
+		Prop L0076 =        
+		Prop L0077 =        
+		Prop L0078 =        
+		Prop L0079 =        
+		Prop L0080 =        
+		Prop L0081 =        
+		Prop L0082 =        
+		Prop L0083 =        
+		Prop L0084 =        
+		Prop L0085 =        
+		Prop L0086 =        
+		Prop L0087 =        
+		Prop L0088 =     End Subroutine 'SnapScreen'
+	End
+End

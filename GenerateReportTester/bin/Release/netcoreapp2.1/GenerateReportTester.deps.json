@@ -16,7 +16,7 @@
       },
       "TIPDriverExtensions/1.0.0": {
         "runtime": {
-          "GenerateReport.dll": {}
+          "sbstde.dll": {}
         }
       },
       "Microsoft.Office.Interop.Access/15.0.0.0": {

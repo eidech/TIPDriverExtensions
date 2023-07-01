@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PARTSExtensions")]
+[assembly: AssemblyTitle("TIPDriverExtensions")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("SBS")]
-[assembly: AssemblyProduct("PARTSExtensions")]
-[assembly: AssemblyCopyright("Copyright © SBS 2019")]
+[assembly: AssemblyProduct("TIPDriverExtensions")]
+[assembly: AssemblyCopyright("Copyright © SBS 2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

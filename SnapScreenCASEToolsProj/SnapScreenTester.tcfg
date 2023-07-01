@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ProgramSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Comm>
+    <DeviceName>$341a22a3</DeviceName>
+    <UDID>bdd27d521a484d51a97cca2d1c3abe80</UDID>
+    <CommMode>TCPIP</CommMode>
+    <TcpServer>192.168.1.1</TcpServer>
+    <TcpPort>5101</TcpPort>
+    <SerialBaud>19200</SerialBaud>
+    <SerialPort>1</SerialPort>
+    <HttpUrl>http://servername/pathfinder</HttpUrl>
+    <ConnectTimeout>15000</ConnectTimeout>
+    <SendReceiveTimeout>2000</SendReceiveTimeout>
+    <ServerAckTimeout>1000</ServerAckTimeout>
+    <ServerDataTimeout>1000</ServerDataTimeout>
+  </Comm>
+  <Appearance>
+    <WindowLocation>
+      <X>1056</X>
+      <Y>720</Y>
+    </WindowLocation>
+    <WindowSize>
+      <Width>768</Width>
+      <Height>485</Height>
+    </WindowSize>
+    <WindowState>Normal</WindowState>
+  </Appearance>
+</ProgramSettings>

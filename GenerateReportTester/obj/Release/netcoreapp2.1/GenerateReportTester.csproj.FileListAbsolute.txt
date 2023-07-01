@@ -18,9 +18,7 @@ C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\Generat
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\bin\Release\netcoreapp2.1\GenerateReportTester.runtimeconfig.dev.json
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\bin\Release\netcoreapp2.1\GenerateReportTester.dll
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\bin\Release\netcoreapp2.1\GenerateReportTester.pdb
-C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\bin\Release\netcoreapp2.1\GenerateReport.dll
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\bin\Release\netcoreapp2.1\Microsoft.Office.Interop.Access.dll
-C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\bin\Release\netcoreapp2.1\GenerateReport.pdb
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Release\netcoreapp2.1\GenerateReportTester.csproj.AssemblyReference.cache
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Release\netcoreapp2.1\GenerateReportTester.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Release\netcoreapp2.1\GenerateReportTester.AssemblyInfoInputs.cache
@@ -30,3 +28,5 @@ C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\Generat
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Release\netcoreapp2.1\GenerateReportTester.dll
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Release\netcoreapp2.1\GenerateReportTester.pdb
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\obj\Release\netcoreapp2.1\GenerateReportTester.genruntimeconfig.cache
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\bin\Release\netcoreapp2.1\sbstde.dll
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester\bin\Release\netcoreapp2.1\sbstde.pdb

@@ -12,11 +12,11 @@ C:\Users\chris\source\repos\GenerateReport\GenerateReportTester(Framework)\obj\R
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester(Framework)\bin\Release\GenerateReportTester(Framework).exe.config
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester(Framework)\bin\Release\GenerateReportTester(Framework).exe
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester(Framework)\bin\Release\GenerateReportTester(Framework).pdb
-C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester(Framework)\bin\Release\GenerateReport.dll
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester(Framework)\bin\Release\Microsoft.Office.Interop.Access.dll
-C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester(Framework)\bin\Release\GenerateReport.pdb
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester(Framework)\obj\Release\GenerateReportTester(Framework).csproj.AssemblyReference.cache
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester(Framework)\obj\Release\GenerateReportTester(Framework).csproj.CoreCompileInputs.cache
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester(Framework)\obj\Release\GenerateReportTester(Framework).csproj.CopyComplete
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester(Framework)\obj\Release\GenerateReportTester(Framework).exe
 C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester(Framework)\obj\Release\GenerateReportTester(Framework).pdb
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester(Framework)\bin\Release\sbstde.dll
+C:\Users\Christopher Eide\source\repos\SentinelRepos\TIPDriverExtensions\GenerateReportTester(Framework)\bin\Release\sbstde.pdb
