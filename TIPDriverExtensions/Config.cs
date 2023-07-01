@@ -20,7 +20,7 @@ namespace TIPDriverExtensions
 
         public static void StartUp(string input, StringBuilder output)
         {
-            String[] terminalFiles;
+            String[] terminalFiles, screenshotFiles;
 
             //Receive and parse arguments from TIP
             _terminalName = input.Substring(0, 10);
@@ -96,11 +96,20 @@ namespace TIPDriverExtensions
 
             try
             {
-                //Find all files that match the Terminal Name
+                //Find all report files that match the Terminal Name
                 terminalFiles = Directory.GetFiles(_reportPath, _terminalName + "*");
 
-                //Delete all files that match Terminal Name
+                //Delete all report files that match Terminal Name
                 foreach (String file in terminalFiles)
+                {
+                    File.Delete(file);
+                }
+
+                //Find all screenshot files that match the Terminal Name
+                screenshotFiles = Directory.GetFiles(_screenshotPath, _terminalName + "*");
+
+                //Delete all screenshot files that match Terminal Name
+                foreach (String file in screenshotFiles)
                 {
                     File.Delete(file);
                 }
